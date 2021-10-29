@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Avatar,
   Grid,
   Paper,
   TextField,
   Button,
-  Link,
+  
   Typography,
 } from "@material-ui/core";
 
@@ -66,7 +67,7 @@ const Login = () => {
         </div>
         <Typography>
           Do you have an account?
-          <Link href="/">Sign Up</Link>
+          <Link to="/">Sign Up</Link>
         </Typography>
       </Paper>
     </Grid>

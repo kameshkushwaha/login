@@ -1,5 +1,6 @@
 import React from "react";
 import AssignmentIcon from "@material-ui/icons/Assessment";
+import  Link from "react-router-dom/Link";
 
 import {
   Avatar,
@@ -14,7 +15,7 @@ import {
   Radio,
   RadioGroup,
   Checkbox,
-  Link,
+  
 } from "@material-ui/core";
 
 const Signup = () => {
@@ -114,7 +115,7 @@ const Signup = () => {
           </Button>
           <Typography>
             I have an account?
-            <Link href="/Login">Log In</Link>
+            <Link to="/Login">Log In</Link>
           </Typography>
         </form>
       </Paper>
